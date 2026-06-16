@@ -52,7 +52,7 @@ export default function Login() {
         </form>
 
         <p className="auth-footer">
-          Don't have an account? <Link to="/signup">Sign up</Link>
+          New to SystemDesign AI? <Link to="/signup">Create an account</Link>
         </p>
       </div>
     </div>
