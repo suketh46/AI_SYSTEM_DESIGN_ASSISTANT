@@ -28,7 +28,7 @@ export default function Dashboard() {
       <Header title="Dashboard" />
       <div className="content">
         <div className="welcome-card">
-          <h3>Welcome back, {user?.name}!</h3>
+          <h3>Welcome back, {user?.name}!How can I help you?</h3>
           <p>Describe a system and get a complete architecture design with interactive diagrams, code references, and best practices.</p>
           <Link to="/dashboard/new" className="btn btn-primary">New Architecture Design</Link>
         </div>
